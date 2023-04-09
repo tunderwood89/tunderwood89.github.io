@@ -2,3 +2,14 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+    background: dodgerblue linear-gradient(45deg, aqua, dodgerblue, deeppink) fixed;
+
+}
+#comment-box, #post {
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: deeppink;
+}
