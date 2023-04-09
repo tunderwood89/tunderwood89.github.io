@@ -30,7 +30,7 @@
         <div><input type="text" id="txtRating" placeholder="Rating of 5" /></div>
         <div><input type="text" id="txtNotesi" placeholder="Notes to improve" /></div>
         <div><input type="text" id="txtNotesw" placeholder="Notes about worker" /></div>
-        <div><input type="text" id="textLink" placeholder="Link to order" /></div>
+        <div><input type="text" id="txtLink" placeholder="Link to order" /></div>
         <div><input type="text" id="txtNotesg" placeholder="General notes" /></div>
         <div>
         </div>
@@ -49,22 +49,25 @@
     	
         // Get the data from each element on the form.
     	const name = document.getElementById('txtName');
-        const age = document.getElementById('txtAge');
-        const email = document.getElementById('txtEmail');
-        const country = document.getElementById('selCountry');
-        const msg = document.getElementById('msg');
-        
+        const rating = document.getElementById('txtRating');
+        const notesi = document.getElementById('txtNotesi');
+        const notesw = document.getElementById('txtNotesw');
+        const link = document.getElementById('txtLink');
+        const notesg = document.getElementById('txtNotesg');
+
+
         // This variable stores all the data.
         let data = 
             '\r Name: ' + name.value + ' \r\n ' + 
-            'Age: ' +age.value + ' \r\n ' + 
-            'Email: ' + email.value + ' \r\n ' + 
-            'Country: ' + country.value + ' \r\n ' + 
-            'Message: ' + msg.value;
+            'Rating: ' +rating.value + ' \r\n ' + 
+            'NotesImprove: ' + notesi.value + ' \r\n ' + 
+            'NotesWorker: ' + notesw.value + ' \r\n ' + 
+            'Link: ' + link.value + ' \r\n ' +
+            'NotesGeneral: ' + notesg.value + ' \r\n ' +
         
         // Convert the text to BLOB.
         const textToBLOB = new Blob([data], { type: 'text/plain' });
-        const sFileName = 'formData.txt';	   // The file to save the data.
+        const sFileName = 'comments.txt';	   // The file to save the data.
 
         let newLink = document.createElement("a");
         newLink.download = sFileName;
