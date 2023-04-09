@@ -1,4 +1,3 @@
-#Retro Shop Payment Link
 It's the RSPL (Retro Shop Payment Link)!
 Pay the worker who made your great, amazing product,
 that you (hopefully) requested!
