@@ -2,6 +2,19 @@ html {
   height: 100%;
   width: 100%;
 }
-.container img {
-   width: 100%;
+.container {
+    width: 40%;
+    height: 40%;
+    background: #444;
+    margin: 0 auto;
+}
+.container img.wide {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.container img.tall {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
 }
