@@ -1,0 +1,26 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-image {
+  width: 400px;
+  height: 400px;
+  margin-top: 39px;
+  object-fit: cover;
+}
+.home-text {
+  width: auto;
+  height: auto;
+  font-size: 12em;
+  font-style: normal;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.home-text1 {
+  font-size: 30px;
+}
