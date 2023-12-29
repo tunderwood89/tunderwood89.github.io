@@ -37,6 +37,6 @@ a:active {
 .footer { 
     position: absolute; 
     bottom: 1;
-    text-align: center;
+    center: 0
     z-index: 10;
 }
