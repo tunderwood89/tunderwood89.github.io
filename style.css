@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.btn {
+  border: 4px solid black;
+  background-color: white;
+  color: black;
+  padding: 4px 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
