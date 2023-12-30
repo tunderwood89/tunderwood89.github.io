@@ -34,8 +34,3 @@ a:active {
   font-size: 20px;
   border-radius: 8px;
 }
-.footer { 
-    position: absolute; 
-    bottom: 1;
-    z-index: 10;
-}
