@@ -36,3 +36,10 @@ a:active {
 }
 div {text-align: center;}
 div {font-family: 'Roboto Condensed', sans-serif;}
+.container {
+    padding: 5px;
+    text-align: center;
+    border: none;
+    margin: auto;
+    width: 30%;
+}
